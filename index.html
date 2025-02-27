@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Vis & Society Assignment 3</title>
+	<link rel="stylesheet" href="/Users/helenchen/Desktop/6.C85/A3/style.css" />
+</head>
+
+<body>
+	<header>
+		<h1>
+			<small>Assignment 3</small> <br>
+			<small>Visualization Critique & Redesign</small>
+		</h1>
+
+		<p>
+			<strong>Helen Chen</strong> — <em>chelen@mit.edu</em>
+		</p>
+	</header>
+
+	<main>
+		<section>
+			<h2>Reading & Critique</h2>
+
+			<figure>
+				<img src="https://vis-society.github.io/assets/imgs/covid-spiral.png" alt="" id="responsive-image" />
+			</figure>
+
+			<p>
+				<strong>Insights about the data/visualization:</strong>
+			</p>
+
+			<ul>
+				<li>There were no COVID cases until the end of March</li>
+				<li>COVID cases peaked in January 2022</li>
+				<li>COVID cases increased steadily from March 2020 to January 2021 before declining and then increased again from June 2021 to September 2021</li>
+				<li>COVID cases was lowest in this range during June 2021</li>
+
+			</ul>
+
+			<p>
+				<strong>Design Critique:</strong>
+			</p>
+
+			<p>
+				At a first glance, I think that it is relatively clear where to start looking due to the year labels. I appreciated the use of a key/scale to correlate the size to an actual number of COVID cases, but I do think that it is generally hard to quickly estimate sizes without using your fingers or a ruler, so I found myself focusing on general trends rather than specific data points. In other words, the quantities were basically hidden from the readers. I really liked the choice to use continuous spiral that changed in size because it was very easy to see how the number of COVID cases was changing over time and the spiral creates a sense of “infiniteness”, suggesting that COVID is not going away any time soon and is a virus we will continue to encounter in the future. On the other hand, the radial/spiral shape made it harder for me to compare the number of COVID cases for months that aren’t next to each other. For me, the radial design is harder to read and interpret than a typical bar or line graph, and it does not match the intuitive and standardized representation of time which is often depicted as a timeline or as a calendar. While I appreciated having a few month labels at each quarter, I initially didn’t realize that each year spanned all 360 degrees of the spiral, so I spent some time counting to determine which month I was in. I think that this is another drawback of the spiral shape, because each year ends up having a different size because 2021 is further from the center, so the circumference is a lot larger. This creates a distracting distortion of year length. I think that it could also help to label all the months to minimize work done by the reader. Lastly, I was confused by what the 7-day average was referring to and think that this could have used some more clarification. 
+			</p>
+			<p>
+				Whether or not this is a good design is so dependent on the goal of the visualization. If the author was aiming to illustrate overall trends and depict COVID as a never ending cycle, this graph does a relatively good job at that. If the goal is to offer detailed insights into the number of cases in each month of the COVID outbreak, this does not accomplish that very well. Reading the article, it seems that the author was aiming to show that January 2022 will see a big surge in cases, and have a record-high number of new cases. I do think that this observation is highlighted clearly in the visualization.
+
+			</p>
+
+		</section>
+
+		<section>
+			<h2>Visualization Sketches</h2>
+
+      <figure>
+				<img src="/Users/helenchen/Desktop/6.C85/A3/Sketch1.png" alt="" id="responsive-image"/>
+				<figcaption>
+					A spiral area graph indicating a surge in new COVID cases in January 2022, suggesting a record-high month of COVID cases to start off the year
+				</figcaption>
+			</figure>
+
+			<p>
+				<strong>Design Rationale for Sketch 1:</strong>
+			</p>
+
+			<ul>
+				<li>For this sketch, I didn’t want to change too much from the original. I addressed some readability issues by labelling each section with the month and using a bold black line to indicate the start of each year
+				</li>
+				<li>Because it is hard to determine quantity from size, I decided to remove the key entirely so the focus is on the trends over time rather than specific data points
+				</li>
+				<li>I wanted to communicate the big surge of cases in January 2022 and the uncertainty of the future, so I decided to make data from 2020 and 2021 grey and use red only for the current year (at the time the article was released)
+				</li>
+				<li>I think that the spiral shape still doesn’t work too well and is generally hard to read and understand
+				</li>
+				<li>By not having any reference for the number of cases, there is no way to extrapolate actual data points
+				</li>
+				<li>The title emphasizes two groups of comparison: 2020 and 2021 vs January 2022. This further refines the focus of the visualization on the surge of cases in January 2022</li>
+				<li>In the next sketch, I want to try using a more conventional representation of time by using a linear structure rather than a spiral 
+				</li>
+				
+			</ul>
+
+			<figure>
+				<img src="/Users/helenchen/Desktop/6.C85/A3/Sketch2.png" alt="" id="responsive-image"/>
+				<figcaption>
+					An area timeline graph indicating that new COVID cases have fluctuated greatly since 2020, with the highest peak prior to 2022 being around 300K.
+				</figcaption>
+			</figure>
+
+			<p>
+				<strong>Design Rationale for Sketch 2:</strong>
+			</p>
+
+			<ul>
+				<li>For this sketch, I wanted to use a linear structure to allow for easier side-to-side comparison of the quantity of COVID cases
+				</li>
+				<li>I think that it is easier to see that January has the highest number of new COVID cases since the beginning of the outbreak
+				</li>
+				<li>I chose to stick with the dark red color since this is often associated with the color of the coronavirus
+				</li>
+				<li>Rather than using an axis, I just added 3 labels for various “peaks” in the data for reference. I don’t think this was very effective and think an axis or more standardized reference for quantity is needed to ensure no data is “hidden”
+				</li>
+				<li>I used tick marks to indicate the months and added labels for each quarter, but I think that these labels look rather messy and are not the easiest to see. They seem more like annotations of the data rather than labels
+				</li>
+				<li>Having the 2D area to represent the amount of COVID cases was not my favorite and I think it looks a bit messy in comparison to a standard line or area graph. This “2D” style also makes it harder to include an axis because the area is growing in both dimensions
+				</li>
+				<li>The title focuses more on the overall trends across 2020-2022 rather than just focusing on January 2022’s surge. 
+				</li>
+				<li>For the next sketch, I want to try a more conventional graph such as a line graph to include an axis to include more transparency on data points
+				</li>
+			</ul>
+
+			<figure>
+				<img src="/Users/helenchen/Desktop/6.C85/A3/Sketch3.png" alt="" id="responsive-image"/>
+				<figcaption>
+					A combined line and bar graph indicating average and daily number of new COVID cases. 
+				</figcaption>
+			</figure>
+
+			<p>
+				<strong>Design Rationale for Sketch 3:</strong>
+			</p>
+
+			<ul>
+				<li>For this final sketch, I wanted to provide more clarity into actual granular data points rather than only showing the 7-day averages
+				</li>
+				<li>I used a classic line graph with axes for time and quantity reference
+				</li>
+				<li>I didn’t include labels for each month within the year, but I don’t think this worked because it made it hard to compare each month
+				</li>
+				<li>I paired the 7-day average line with a bar for the actual daily count to provide more transparency into the calculation that was done, which could be important to people who need more specific data to trust a visualization 
+				</li>
+				<li>I included arrows on both axes to add a sense of “never ending-ness” to suggest that COVID is an issue that will continue – I’m not sure if this is really effective or needed
+				</li>
+				<li>I think that having the axis was helpful, but it would be even more helpful to annotate a few points for easier reference without having the draw a mental line from a point to the y-axis
+				</li>
+				<li>I added a label to indicate the day the article was released to show that the visualization is only using existing data and is not including any projections/predictions for the future 
+				</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Final Visualization Design</h2>
+      
+			<figure>
+				<img src="/Users/helenchen/Desktop/6.C85/A3/FinalGraph.png" alt="" id="responsive-image"/>
+				<figcaption>
+          BRIEF CAPTION HERE.
+				</figcaption>
+			</figure>
+
+		</section>
+
+		<section>
+			<h2>Design Process & Design Decisions</h2>
+
+			<p>
+        DESCRIBE YOUR DESIGN PROCESS AND DECISION DECISIONS HERE.
+      </p>
+
+      <h3>Reflection</h3>
+
+      <p>
+        WRITE YOUR FINAL REFLECTION HERE.
+      </p>
+		</section>
+	</main>
+</body>
+</html>
