@@ -164,14 +164,62 @@
 			<h2>Design Process & Design Decisions</h2>
 
 			<p>
-        For the visualization, I wanted to focus more on the growth/increase in COVID cases rather than the cumulative growth of COVID throughout the entire pandemic. I chose to focus on new cases, just like the original visualization, because this is the information relevant to the contagiousness of COVID, whereas plotting deaths focuses more on the mortality rate. Overall, I want to communicate that even though COVID started 2 years ago, it is still a prevalent problem and without proper concern and consideration, it will continue to spread. From my sketches, I liked my final iteration the most because I think it was able to juxtapose the 7-day averages with daily count data. The daily count data provides transparency, as readers who are interested in granular data points have access to those numbers. However, this data could be overwhelming to people who are less receptive to data, so the 7-day average measure focuses more on the general trends in new COVID cases, leading to a smoother curve than the one that would arise from using the daily count. In order to easily see both measures at once, I made the smoother 7-day average a line graph, and made the daily count a bar graph, but due to the dense nature of the daily data, it almost leads to an overall area graph effect. I also chose to use a standard graph with two linear axes for easier side-by-side comparison. In terms of color, I chose to make the 7-day average line and the daily count bars shades of red rather than two different colors to illustrate that both measures are using the same data (New Confirmed Cases). Rather than labeling directly on the graph, I included a legend to show which marks are associated to what measure, for clarity. In terms of axes, I chose not to scale the y-axis by thousands because I think that this gets confusing when the value exceeds 1 million, as it shows as 1000K. Thus, I think that listing the number in standard format is easier to read. I also did not scale down the y-axis’s range to under 1 million because I wanted to suggest that, in a way, there is still room for the number of cases to “grow”, creating a sense of “never ending-ness”. For the x-axis, I chose to display the month and year rather than the dates, as this would make the axis very messy to read. I chose to include every other month rather than every quarter, like the original, because this requires less counting from the reader. I showed tick marks for every month so it was easy to correlate the month with the data. Lastly, I added two annotations to the graph. In order to communicate how much the number of COVID cases has surged in the current month (January 2022), I highlighted the actual number of cases from January 2021, and the actual number from January 2022. For January 2022, I made the text and border red to emphasize this annotation. I think that my visualization might over-emphasize the surge in January 2022 because it uses the red box with text to explicitly call out this data point. This visualization also does not say anything about the number of recovered cases or deaths, so this could cause a reader to falsely exaggerate the mortality rate of COVID. 
+        For the visualization, I wanted to focus more on the growth/increase in COVID cases rather than the cumulative 
+		growth of COVID throughout the entire pandemic. I chose to focus on new cases, just like the original visualization, 
+		because this is the information relevant to the contagiousness of COVID, whereas plotting deaths focuses more on 
+		the mortality rate. Overall, I want to communicate that even though COVID started 2 years ago, it is still a 
+		prevalent problem and without proper concern and consideration, it will continue to spread. From my sketches, I 
+		liked my final iteration the most because I think it was able to juxtapose the 7-day averages with daily count data. 
+		The daily count data provides transparency, as readers who are interested in granular data points have access to 
+		those numbers. However, this data could be overwhelming to people who are less receptive to data, so the 7-day 
+		average measure focuses more on the general trends in new COVID cases, leading to a smoother curve than the one 
+		that would arise from using the daily count. In order to easily see both measures at once, I made the smoother 
+		7-day average a line graph, and made the daily count a bar graph, but due to the dense nature of the daily data, 
+		it almost leads to an overall area graph effect. I also chose to use a standard graph with two linear axes for 
+		easier comparison of the number of new cases between month, even if they are not side-by-side.
+		In terms of color, I chose to make the 7-day average line and the daily count 
+		bars shades of red rather than two different colors to illustrate that both measures are using the same data 
+		(New Confirmed Cases). Rather than labeling directly on the graph, I included a legend to show which marks are 
+		associated to what measure, for clarity. In terms of axes, I chose not to scale the y-axis by thousands because 
+		I think that this gets confusing when the value exceeds 1 million, as it shows as 1000K. Thus, I think that listing 
+		the number in standard format is easier to read. I also did not scale down the y-axis’s range to under 1 million 
+		because I wanted to suggest that, in a way, there is still room for the number of cases to “grow”, creating a 
+		sense of “never ending-ness”. For the x-axis, I chose to display the month and year rather than the dates, as 
+		this would make the axis very messy to read. I chose to include every other month rather than every quarter, 
+		like the original, because this requires less counting from the reader. I showed tick marks for every month so 
+		it was easy to correlate the month with the data. Lastly, I added two annotations to the graph. In order to 
+		communicate how much the number of COVID cases has surged in the current month (January 2022), I highlighted 
+		the actual number of cases from January 2021, and the actual number from January 2022. For January 2022, I made 
+		the text and border red to emphasize this annotation. I think that my visualization might over-emphasize the 
+		surge in January 2022 because it uses the red box with text to explicitly call out this data point. This 
+		visualization also does not say anything about the number of recovered cases or deaths, so this could cause 
+		a reader to falsely exaggerate the mortality rate of COVID. 
 
       </p>
 
       <h3>Reflection</h3>
 
       <p>
-        WRITE YOUR FINAL REFLECTION HERE.
+        I think that my design addresses many of the critiques I highlighted in Step 2. My main concern with the original 
+		graph is that it was not very easy to compare the number of new cases with months that are not side-by-side. 
+		By using linear axes, I think I addressed this concern. I also felt that there was not much transparency in the 
+		data because it only showed the 7-day average, but my visualization shows the transformed (averaged) and untransformed 
+		values, increasing transparency. I was surprised by the influence of color and how muhc a difference this made. For me,
+		I learned I really associate COVID with red, and any other color didn't seem as fitting. 
+		I think that this “critique by redesign” process really showed me how difficult it is 
+		to show all the data we are given. While I aimed to prioritize transparency, it was rather difficult to keep my mind 
+		open to all possible trends in the data because I went in with an intended hypothesis. This hypothesis almost limited 
+		me to only look at the data in a “two-dimensional way”. In other words, I am only looking at the data to see whether 
+		or not my hypothesis is true, but I am closing myself off to any other trends that might be in the data. While I wanted 
+		to show deaths as well, for COVID specifically, I think it's hard to show death rates and growth rates on the same chart, 
+		because the number of deaths is so much lower than the total number of new cases. However, using two different scales 
+		for deaths and new cases could scare the general public because it would make the deaths seem a lot higher than they are. 
+		On the other hand, by not scaling the deaths, it could underplay the change in deaths. It is a fact that COVID has led to 
+		many lost lives, but how can we communicate that COVID is not just your regular flu/cold without scaring the public or 
+		falsely portraying data? This might be too much responsibility for a singular visualization. I ultimately chose to focus 
+		on the spread of COVID over time by only displaying data on new cases, but I admit that this is hiding information on the 
+		mortality rate and “danger” of the virus.
+
       </p>
 		</section>
 	</main>
